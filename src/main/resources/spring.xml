@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+    <context:annotation-config/>
+
+    <!--<context:component-scan base-package="com.project.praktickecvicenia"/>-->
+
+    <import resource="db-h2-config.xml"/>
+
+    <bean id="noteDAO" class="com.project.praktickecvicenia.dao.NoteDAOImpl">
+        <property name="namedParameterJdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <!--<bean id="jdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" >-->
+		<!--&lt;!&ndash;<property name="dataSource" ref="dataSource" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg ref="dbcpDataSource" />&ndash;&gt;-->
+        <!--<constructor-arg ref="dataSource" />-->
+    <!--</bean>-->
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" >
+        <constructor-arg ref="dbcpDataSource" />
+    </bean>
+
+    <bean id="dbcpDataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="org.hsqldb.jdbcDriver" />
+        <property name="url" value="jdbc:h2:mem:testdb" />
+        <property name="username" value="sa" />
+        <property name="password" value="" />
+    </bean>
+
+
+
+    <!--<bean id="dbcpDataSource" class="org.apache.commons.dbcp2.BasicDataSource"-->
+          <!--destroy-method="close">-->
+        <!--<property name="driverClassName" value="org.h2.jdbcDriver" />-->
+        <!--<property name="url" value="jdbc:h2:mem:dataSource" />-->
+        <!--<property name="username" value="sa" />-->
+        <!--<property name="password" value="" />-->
+    <!--</bean>-->
+
+    <!--<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dbcpDataSource"/>
+        <property name="packagesToScan" value="com.project.praktickecvicenia.entities"/>
+        <property name="hibernateProperties" >
+            <props>
+                <prop key="dialect">org.hibernate.dialect.H2Dialect</prop>
+            </props>
+        </property>
+    </bean>-->
+
+</beans>
