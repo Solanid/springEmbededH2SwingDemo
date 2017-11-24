@@ -1,3 +1,3 @@
-INSERT INTO notes (note, status) VALUES ('Make coffee.', 0);
-INSERT INTO notes (note, status) VALUES ('Deploy project to staging environment.', 0);
-INSERT INTO notes (note, status) VALUES ('Go for kids to school.', 0);
+INSERT INTO notes (note) VALUES ('Make coffee.');
+INSERT INTO notes (note) VALUES ('Deploy project to staging environment.');
+INSERT INTO notes (note) VALUES ('Go for kids to school.');

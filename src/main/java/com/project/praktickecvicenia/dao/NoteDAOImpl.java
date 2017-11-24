@@ -1,5 +1,6 @@
 package com.project.praktickecvicenia.dao;
 
+import com.project.praktickecvicenia.config.db.H2DataSource;
 import com.project.praktickecvicenia.entities.Note;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
@@ -15,7 +16,8 @@ import java.util.Map;
 @Repository
 public class NoteDAOImpl implements NoteDAO{
 
-    NamedParameterJdbcTemplate namedParameterJdbcTemplate;
+
+    private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     @Autowired
     public void setNamedParameterJdbcTemplate(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
@@ -23,6 +25,7 @@ public class NoteDAOImpl implements NoteDAO{
     }
 
     public NoteDAOImpl() {
+        this.namedParameterJdbcTemplate = new H2DataSource().getTemplate();
     }
 
     public NoteDAOImpl(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
@@ -49,12 +52,19 @@ public class NoteDAOImpl implements NoteDAO{
     }
 
     public void addNote(Note note) {
-        String query = "INSERT INTO notes (note, status) VALUES(:note, :status)";
+        String query = "INSERT INTO notes (note) VALUES(:note)";
         Map namedParameters = new HashMap();
         namedParameters.put("note", note.getNote());
-        namedParameters.put("status", note.isDone());
         namedParameterJdbcTemplate.update(query, namedParameters);
+    }
 
+    public void changeStatus(int id) {
+        String query = "UPDATE notes SET status = " +
+                "CASE WHEN status = 0 THEN  1 ELSE  0 END " +
+                "WHERE id LIKE :id ";
+        Map namedParameters = new HashMap();
+        namedParameters.put("id", id);
+        namedParameterJdbcTemplate.update(query, namedParameters);
     }
 
     private static final class UserMapper implements RowMapper<Note> {
@@ -62,7 +72,7 @@ public class NoteDAOImpl implements NoteDAO{
             Note note = new Note();
             note.setId(rs.getInt("id"));
             note.setNote(rs.getString("note"));
-            note.setDone(rs.getInt("status") == 1);
+            note.setDone(rs.getInt("status") != 0);
             return note;
         }
     }
