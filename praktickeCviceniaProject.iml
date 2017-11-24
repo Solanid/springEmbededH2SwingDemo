@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
+        <fileset id="fileset" name="Spring Application Context" removed="false" profiles="h2">
           <file>file://$MODULE_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java</file>
         </fileset>
       </configuration>

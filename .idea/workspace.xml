@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4253c943-bce3-495e-80cc-1cc78c6a0e83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_12_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteHibernateDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/db-h2-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/dao/NoteHibernateDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/db-h2-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/config/db/H2DataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/config/db/H2DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/dao/NoteDAOImpl$UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/dao/NoteDAOImpl$UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/dao/NoteDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/dao/NoteDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/ui/TodoForm$1.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/ui/TodoForm$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/ui/TodoForm.class" afterPath="$PROJECT_DIR$/target/classes/com/project/praktickecvicenia/ui/TodoForm.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/praktickeCviceniaProject.iml" afterPath="$PROJECT_DIR$/praktickeCviceniaProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/ui/TodoForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/ui/TodoForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/create-db.sql" afterPath="$PROJECT_DIR$/src/main/resources/create-db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/insert-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/insert-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/create-db.sql" afterPath="$PROJECT_DIR$/target/classes/create-db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/insert-data.sql" afterPath="$PROJECT_DIR$/target/classes/insert-data.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -99,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -112,8 +78,8 @@
       <file leaf-file-name="H2DataSource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="355">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#1080#1081#0" expanded="true" />
                 <element signature="e#1138#1139#0" expanded="true" />
@@ -135,8 +101,8 @@
       <file leaf-file-name="NoteDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="484">
+              <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#953#954#0" expanded="true" />
@@ -239,12 +205,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/insert-data.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/create-db.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteHibernateDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/ui/TodoForm.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -600,7 +566,7 @@
       <workItem from="1511335101017" duration="68000" />
       <workItem from="1511432776455" duration="15754000" />
       <workItem from="1511451416456" duration="121000" />
-      <workItem from="1511513237098" duration="19201000" />
+      <workItem from="1511513237098" duration="19627000" />
     </task>
     <task id="LOCAL-00001" summary="added git ignore">
       <created>1511451509555</created>
@@ -616,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511525841108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="note can be marked as done">
+      <created>1511534889703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511534889703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -646,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45967000" />
+    <option name="totallyTimeSpent" value="46393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
@@ -693,7 +666,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added git ignore" />
     <MESSAGE value="added todo table" />
-    <option name="LAST_COMMIT_MESSAGE" value="added todo table" />
+    <MESSAGE value="note can be marked as done" />
+    <option name="LAST_COMMIT_MESSAGE" value="note can be marked as done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,52 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1196#1212#0" expanded="true" />
-            <element signature="e#1614#1630#0" expanded="true" />
-            <marker date="1511534615272" expanded="true" signature="1268:1300" ph="SELECT * FRO... users" />
-            <marker date="1511534615272" expanded="true" signature="1656:1674" ph="SELECT * FRO... note" />
-            <marker date="1511534615272" expanded="true" signature="1656:1675" ph="SELECT * FRO... notes" />
-            <marker date="1511534615272" expanded="true" signature="1862:1900" ph="INSERT INTO notes... " />
-            <marker date="1511534615272" expanded="true" signature="2138:2221" ph="UPDATE notes... " />
-            <marker date="1511534615272" expanded="true" signature="2138:2264" ph="UPDATE notes... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/entities/Note.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1097,6 +1025,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/dao/NoteDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1196#1212#0" expanded="true" />
+            <element signature="e#1614#1630#0" expanded="true" />
+            <marker date="1511534615272" expanded="true" signature="1268:1300" ph="SELECT * FRO... users" />
+            <marker date="1511534615272" expanded="true" signature="1656:1674" ph="SELECT * FRO... note" />
+            <marker date="1511534615272" expanded="true" signature="1656:1675" ph="SELECT * FRO... notes" />
+            <marker date="1511534615272" expanded="true" signature="1862:1900" ph="INSERT INTO notes... " />
+            <marker date="1511534615272" expanded="true" signature="2138:2221" ph="UPDATE notes... " />
+            <marker date="1511534615272" expanded="true" signature="2138:2264" ph="UPDATE notes... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/praktickecvicenia/config/db/H2DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
