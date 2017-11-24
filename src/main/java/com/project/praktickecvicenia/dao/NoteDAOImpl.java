@@ -48,11 +48,21 @@ public class NoteDAOImpl implements NoteDAO{
         return result;
     }
 
+    public void addNote(Note note) {
+        String query = "INSERT INTO notes (note, status) VALUES(:note, :status)";
+        Map namedParameters = new HashMap();
+        namedParameters.put("note", note.getNote());
+        namedParameters.put("status", note.isDone());
+        namedParameterJdbcTemplate.update(query, namedParameters);
+
+    }
+
     private static final class UserMapper implements RowMapper<Note> {
         public Note mapRow(ResultSet rs, int rowNum) throws SQLException {
             Note note = new Note();
             note.setId(rs.getInt("id"));
             note.setNote(rs.getString("note"));
+            note.setDone(rs.getInt("status") == 1);
             return note;
         }
     }

@@ -1,22 +1,10 @@
 package com.project.praktickecvicenia.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table (name = "NOTE")
 public class Note {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-
-    @Column(name = "NOTE")
     private String note;
+    private boolean done;
 
     public Note() {
     }
@@ -37,11 +25,20 @@ public class Note {
         this.note = note;
     }
 
+    public boolean isDone() {
+        return done;
+    }
+
+    public void setDone(boolean done) {
+        this.done = done;
+    }
+
     @Override
     public String toString() {
         return "Note{" +
                 "id=" + id +
                 ", note='" + note + '\'' +
+                ", done=" + done +
                 '}';
     }
 }

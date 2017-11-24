@@ -25,7 +25,7 @@ public class Application {
 
         List<Note> noteList = notesDAO.findAll();
         for (Note n:noteList) {
-            System.out.println(n.getNote());
+            System.out.println(n.getNote()+" "+n.isDone());
         }
 
         Note note = notesDAO.findById(1);
@@ -37,5 +37,14 @@ public class Application {
         jFrame.pack();
         jFrame.setVisible(true);
         jFrame.setLocationRelativeTo(null);
+
+//        TodoFrame todoFrame = new TodoFrame();
+//        todoFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+//        todoFrame.setSize(600,200);
+//        todoFrame.setTitle("Todo List");
+////        todoFrame.pack();
+//        todoFrame.setVisible(true);
+//        todoFrame.setLocationRelativeTo(null);
+
     }
 }
