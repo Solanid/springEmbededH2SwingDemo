@@ -20,7 +20,7 @@ public class TodoForm extends JFrame {
 
     private NoteDAOImpl noteDAO;
 
-    private Object[] columnNames = {"No.", "Note", "Status"};
+    private Object[] columnNames = {"Num.", "Note", "Status"};
 
     public TodoForm() throws HeadlessException {
         noteDAO = new NoteDAOImpl();
